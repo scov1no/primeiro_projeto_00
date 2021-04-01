@@ -1,6 +1,6 @@
 package primeiro_projeto_oo;
 
-public class Pessoa {
+public abstract class Pessoa {
 
     private String nome;
 

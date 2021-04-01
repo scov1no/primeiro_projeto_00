@@ -2,7 +2,7 @@ package primeiro_projeto_oo;
 
 import java.util.Collection;
 
-public class Aluno extends Pessoa {
+public class Aluno extends Pessoa implements Autenticacao{
 
     private String matricula;
     private Collection<Endereco> enderecos;

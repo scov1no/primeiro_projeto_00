@@ -4,7 +4,7 @@ public class Professor extends Pessoa {
 
     private Double salario;
 
-    public Double getSalario() {
+    public double getSalario() {
         return salario;
     }
 
