@@ -2,7 +2,7 @@ package primeiro_projeto_oo;
 
 import java.util.Collection;
 
-public class Aluno extends Pessoa implements Autenticacao{
+public class Aluno extends Pessoa  {
 
     private String matricula;
     private Collection<Endereco> enderecos;
@@ -39,4 +39,14 @@ public class Aluno extends Pessoa implements Autenticacao{
         this.enderecos = enderecos;
     }
 
+    @Override
+    public boolean autenticar(String login, String senha) {
+         if(login == "Victor"){
+             if(senha == "123456"){
+                 return true;
+             }
+
+         }
+        return false;
+    }
 }

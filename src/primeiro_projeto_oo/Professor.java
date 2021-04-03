@@ -11,4 +11,9 @@ public class Professor extends Pessoa {
     public void setSalario(Double salario) {
         this.salario = salario;
     }
+
+    @Override
+    public boolean autenticar(String login, String senha) {
+        return false;
+    }
 }

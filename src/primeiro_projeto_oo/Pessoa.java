@@ -1,6 +1,6 @@
 package primeiro_projeto_oo;
 
-public abstract class Pessoa {
+public abstract class Pessoa  implements  Autenticacao{
 
     private String nome;
 
